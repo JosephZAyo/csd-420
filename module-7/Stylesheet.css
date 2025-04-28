@@ -1,0 +1,23 @@
+/* Style Sheet */
+
+/* Class and ID selectors */
+.plainCircle { 
+    -fx-fill: white; 
+    -fx-stroke: black; 
+}
+
+#redcircle { 
+    -fx-fill: red; 
+    -fx-stroke: red; 
+}
+
+#greencircle { 
+    -fx-fill: green; 
+    -fx-stroke: green; 
+}
+
+.border { 
+    -fx-fill: transparent; /* Rectangle internals are transparent */
+    -fx-stroke: black; 
+    -fx-stroke-width: 5;
+}
